@@ -1,3 +1,10 @@
+#ignore consumer packages
+consumer-sam-app-p4-april5/*
+!consumer-sam-app-p4-april5/hello_world
+
+sam-app-p4-april5/*
+!sam-app-p4-april5/hello_world
+
 #ignore huggingface
 summarizeApp
 #ignore fine-tuning
