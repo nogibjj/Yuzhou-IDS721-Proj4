@@ -12,6 +12,8 @@
 ![lambda_function](assets/lambda_function.png)
 ![lambda_function_result](assets/lambda_function_result.png)
 
+### Week 10: Create serverless pipeline
+
 ## Reference
 * [tutorial](https://github.com/noahgift/awslambda)
 * [python template](https://github.com/nogibjj/python-template)
