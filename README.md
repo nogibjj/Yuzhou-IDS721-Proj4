@@ -65,7 +65,6 @@ And you can observe the drop of the number of messages in the SQS monitor.
 ![sqs_message_drop_monitor](assets/sqs_message_drop_monitor.png)
 
 To see the sentiment analysis ongoing, go CloudWatch Logs inside our consumer function
-![logs_consumer](assets/logs_consumer.png)
 
 Use CloudWatch LogInsights to find the sentiment results
 ```
