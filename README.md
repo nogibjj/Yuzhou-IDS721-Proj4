@@ -15,6 +15,15 @@
 ### Week 10: Create serverless pipeline
 ![architecture](assets/architecture.png)
 
+0. Preparation: 
+    i. Create table of company names inside DynamoDB
+![dynamoDB_table](assets/dynamoDB_table.png)
+
+    ii. Create SQS `producer`
+![sqs](assets/sqs.png)
+
+    iii. Create AdministratorAccess role
+![lambda_function_role](assets/lambda_function_role.png)
 
 1. Initiate, Build, and Deploy SAM application. 
 ```
@@ -31,7 +40,6 @@ And create CloudWatch Events Trigger
 ![lambda_function_sam](assets/lambda_function_sam.png)
 
 2. Modify the Execution Role at this newly created lambda function: Configuration -> Edit Execution role -> choose the role with AdministratorAccess you created before
-![lambda_function_role](assets/lambda_function_role.png)
 
 3. Check SQS to see if have messages received
 ![sqs_messages](assets/sqs_messages.png)
