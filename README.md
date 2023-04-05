@@ -61,8 +61,9 @@ sam deploy --guided
 And create SQS Trigger
 ![lambda_function_sam_consumer](assets/lambda_function_sam_consumer.png)
 
-And you can observe the drop of the number of messages in the SQS monitor.
-![sqs_message_drop_monitor](assets/sqs_message_drop_monitor.png)
+And you can observe the drop of the number of messages received in the SQS monitor.
+![sqs_n_msg_received](assets/sqs_n_msg_received.png)
+![sqs_n_msg_deleted](assets/sqs_n_msg_deleted.png)
 
 To see the sentiment analysis ongoing, go CloudWatch Logs inside our consumer function
 
