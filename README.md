@@ -5,7 +5,6 @@
 
 ### Goals
  - [x] Reproduce the architecture of the example serverless data engineering project or perform something similar using only serverless technologies
- - [ ] Enhance the project by extending the functionality of the NLP analysis: adding entity extraction, key phrase extraction, or some other NLP feature or doing Applied Computer Vision.
 
 ### Week 9: Calling Amazon Comprehend service inside AWS Cloud9
 ![success_ipython_sentiment](assets/success_ipython_sentiment.png)
