@@ -100,7 +100,15 @@ message
 Sentiment from FANG companies: {'names': {0: 'Microsoft'}, 'wikipedia_snippit': {0: 'Microsoft Corporation is an American multinational technology corporation headquartered in Redmond, Washington.'}, 'Sentiment': {0: 'NEUTRAL'}}
 ```
 
-### Week 11: Modify the pipeline to fit other NLP tasks
+### Week 11: Debug the pipeline for recording in S3 bucket
+Create your own S3 bucket that you want to save the sentiment analysis results
+![s3_bucket_files](assets/s3_bucket_files.png)
+
+
+```
+# Write result to S3
+write_s3(df=df, bucket="fangcomsentiment", name=names) # You need to change the bucket name here to the s3 bucket you just created
+```
 
 ## Reference
 * [tutorial](https://github.com/noahgift/awslambda)
