@@ -189,4 +189,4 @@ def lambda_handler(event, context):
     LOG.info(f"Sentiment from FANG companies: {df.to_dict()}")
 
     # Write result to S3
-    write_s3(df=df, bucket="comsentiment", name=names)
+    write_s3(df=df, bucket="fangcomsentiment", name=names)
