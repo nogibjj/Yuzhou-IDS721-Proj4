@@ -16,7 +16,7 @@
 
 0. Preparation: 
     i. Create table of company names inside DynamoDB
-![dynamoDB_table](assets/dynamoDB_table.png)
+![DynamoDB_table](assets/DynamoDB_table.png)
 
     ii. Create SQS `producer`
 ![sqs](assets/sqs.png)
