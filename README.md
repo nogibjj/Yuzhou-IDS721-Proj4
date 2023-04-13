@@ -56,7 +56,7 @@ Since the consumer application depends on several third party packages, we need 
 cd consumer-sam-app-p4-april5/hello_world
 python -m venv ../venv
 source ../venv/bin/activate
-pip install -r requirements.txt 
+pip install -r requirements.txt --target ../
 ```
 
 Then deploy and build:
@@ -102,7 +102,7 @@ Sentiment from FANG companies: {'names': {0: 'Microsoft'}, 'wikipedia_snippit': 
 ### Week 11: Debug the pipeline for recording in S3 bucket
 Create your own S3 bucket that you want to save the sentiment analysis results
 ![s3_bucket_files](assets/s3_bucket_files.png)
-
+![s3_bucket_csv_details](assets/s3_bucket_csv_details.png)
 
 ```
 # Write result to S3
